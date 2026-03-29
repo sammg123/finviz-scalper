@@ -1,0 +1,53 @@
+{
+  "version": "v6_fee_aware",
+  "training_windows": 11,
+  "training_months": 11,
+  "trained_at": "2026-03-14 17:07:23 UTC",
+  "assets": [
+    "BTCUSDT",
+    "ADAUSDT",
+    "DOGEUSDT",
+    "ETHUSDT"
+  ],
+  "normalization": "L2_unit_norm",
+  "leverage": 5,
+  "hl_taker_fee_per_side": 0.00045,
+  "slippage_per_side": 0.0003,
+  "round_trip_friction": 0.0075,
+  "features": [
+    "zscore_6",
+    "bb_pos_6",
+    "rsi_3",
+    "ret_3",
+    "roc_3",
+    "logret_3",
+    "signed_eff_3",
+    "avg_trade_size_48",
+    "zscore_12",
+    "bb_pos_12",
+    "signed_eff_6",
+    "rsi_6",
+    "vwap_dev_6",
+    "ret_6",
+    "roc_6",
+    "cs_rank_12"
+  ],
+  "weights": [
+    -0.28987690227560425,
+    -0.28987690227560425,
+    -0.1986359256194706,
+    -0.28320138651167803,
+    -0.28320138651167803,
+    -0.2831536028049856,
+    -0.22429462081204324,
+    0.03748354599854732,
+    -0.28978543156218545,
+    -0.28978543156218545,
+    -0.23643418483267686,
+    -0.24377964812523242,
+    -0.26009929682139854,
+    -0.23868238904661104,
+    -0.23868238904661104,
+    -0.18793717662568712
+  ]
+}
